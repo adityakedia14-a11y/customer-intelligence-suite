@@ -1,0 +1,33 @@
+{
+  "holdout": {
+    "calibration_end": "2011-06-09",
+    "holdout_weeks": 26.3,
+    "customers": 4941,
+    "purchases_actual": 7810.0,
+    "purchases_predicted": 7639.570589610534,
+    "purchases_error_pct": -2.1821947553068655,
+    "purchases_mae_per_customer": 1.0494771801442362,
+    "revenue_actual": 4558196.66,
+    "revenue_predicted": 3679666.5502937017,
+    "revenue_error_pct": -19.273633308008662,
+    "revenue_spearman": 0.6255272144604063,
+    "top20_revenue_capture_pct": 73.36892261247894
+  },
+  "final_params": {
+    "mbgnbd": {
+      "r": 0.7325906349383833,
+      "alpha": 9.704252207435946,
+      "a": 0.1473479010918285,
+      "b": 3.449558301414631,
+      "converged": true
+    },
+    "gamma_gamma": {
+      "p": 2.228034913986566,
+      "q": 3.4883943388707817,
+      "v": 443.61487164608735,
+      "converged": true,
+      "population_mean_order_value": 397.1996748874123
+    },
+    "freq_monetary_corr": 0.020302538331350116
+  }
+}

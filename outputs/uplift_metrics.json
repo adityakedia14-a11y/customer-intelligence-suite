@@ -1,0 +1,17 @@
+{
+  "treatment": "Womens E-Mail",
+  "control": "No E-Mail",
+  "outcome": "visit",
+  "test_average_effect": 0.0451138658360357,
+  "models": {
+    "T-learner": {
+      "qini_area": 35.973315842667574
+    },
+    "S-learner": {
+      "qini_area": 53.98736732893303
+    }
+  },
+  "best_model": "S-learner",
+  "top_30pct_captures": 0.4803012736942574,
+  "top_50pct_captures": 0.8872313486952941
+}
